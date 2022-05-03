@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22ce6825.css",
-    "main.js": "/static/js/main.0fe81ede.js",
+    "main.js": "/static/js/main.9962b2c3.js",
     "static/js/787.43c80abd.chunk.js": "/static/js/787.43c80abd.chunk.js",
     "static/media/home_image.webp": "/static/media/home_image.c8df725130f420dbb7d8.webp",
     "static/media/features_image.webp": "/static/media/features_image.e89c337f53387a97a065.webp",
@@ -10,11 +10,11 @@
     "static/media/linux_logo.png": "/static/media/linux_logo.daeeddfff9c1a23e09b6.png",
     "index.html": "/index.html",
     "main.22ce6825.css.map": "/static/css/main.22ce6825.css.map",
-    "main.0fe81ede.js.map": "/static/js/main.0fe81ede.js.map",
+    "main.9962b2c3.js.map": "/static/js/main.9962b2c3.js.map",
     "787.43c80abd.chunk.js.map": "/static/js/787.43c80abd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22ce6825.css",
-    "static/js/main.0fe81ede.js"
+    "static/js/main.9962b2c3.js"
   ]
 }

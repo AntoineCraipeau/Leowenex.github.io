@@ -1,3 +1,62 @@
-h1{
-   font-size: 10vh; 
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   position: sticky;
+   top: 0;
+   border-bottom: solid black 1px;
+   background-color: navy;
+   height: 14.5vh;
+}
+
+header h1{
+   color: black;
+   font-size: 7vh; 
+}
+
+header div{
+   background-color: white;
+}
+
+header ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+header li{
+   float: left;
+   background-color: navy;
+}
+
+header li a {
+   display: block;
+   color: white;
+   text-align: center;
+   font-size: 3vh;
+   padding: 01.5vh 0.83vw;
+   text-decoration: none;
+}
+
+header a:hover{
+   background-color: white;
+   color: black;
+}
+
+section{
+   height: 100vh;
+}
+
+footer{
+   background-color: navy;
+   text-align: center;
+   height: 5vh;
+}
+
+footer a{
+   color: white;
 }

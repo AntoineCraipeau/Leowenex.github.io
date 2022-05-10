@@ -8,17 +8,13 @@ header{
    position: sticky;
    top: 0;
    border-bottom: solid black 1px;
-   background-color: navy;
-   height: 14.5vh;
+   background-color:darkslategray;
 }
 
 header h1{
-   color: black;
-   font-size: 7vh; 
-}
-
-header div{
-   background-color: white;
+   color: white;
+   font-size: 8vh;
+   padding-bottom: 1vh;
 }
 
 header ul{
@@ -30,7 +26,7 @@ header ul{
 
 header li{
    float: left;
-   background-color: navy;
+   background-color:darkslategray;
 }
 
 header li a {
@@ -48,11 +44,24 @@ header a:hover{
 }
 
 section{
-   height: 100vh;
+}
+
+article{
+   min-height: 40vh;
+   padding: 5vw;
+   font-size: 3vh;
+   text-align: justify;
+   text-justify: auto;
+}
+
+article h1{
+   font-size: 5vh;
+   font-weight: bold;
+   padding-bottom: 1vh;
 }
 
 footer{
-   background-color: navy;
+   background-color:darkslategray;
    text-align: center;
    height: 5vh;
 }

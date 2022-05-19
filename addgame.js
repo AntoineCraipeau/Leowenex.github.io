@@ -60,7 +60,14 @@ function save(){
 
 function importsave(){
 	list = JSON.parse(localStorage.getItem("saveadd"));
+    if(list == null){
+        list = [];
+    }
     for(let game of list){
         add(game);
     }
+}
+
+function deletesave(){
+    localStorage.removeItem("saveadd");
 }

@@ -19,35 +19,54 @@
 			</ul>
 		</header>
 		<h1>Copium - Add Games</h1>
-		<section class="addtask">
+		<section class="addgame">
 
-			<form name="newTask" class="box" id="newTask" onsubmit="">
+			<form name="newGame" class="box" id="newGame" onsubmit="">
 				<div>
-			        <label for="name"> Task name:</label>
-			        <input type="text" id="name" name="task_name" placeholder="Enter task name" required>
+			        <label for="title"> Game Title:</label>
+			        <input type="text" id="title" name="game_title" placeholder="Enter game title" required>
+    			</div>
+                <div>
+			        <label for="image"> Game Poster:</label>
+			        <input type="text" id="image" name="game_image" placeholder="Enter link to game poster" required>
+    			</div>
+                <div>
+			        <label for="studio"> Studio:</label>
+			        <input type="text" id="studio" name="game_studio" placeholder="Enter studio" required>
+    			</div>
+                <div>
+			        <label for="publisher"> Publisher:</label>
+			        <input type="text" id="publisher" name="game_publisher" placeholder="Enter publisher" required>
     			</div>
     			<div>
-    				<label for="start"> Date:</label>
-					<input type="date" id="date" name="task_date"
+    				<label for="release"> Release Date:</label>
+					<input type="date" id="release" name="game_release"
 					       value="2022-04-22" min="2022-04-22">
     			</div>
     			<div>
-    				<label for="pet-select"> Category:</label>
-					<select name="category" id="task-category">
-					    <option value="">--Please choose an option--</option>
-					    <option value="personnal">Personnal Task</option>
-					    <option value="professional">Professional Task</option>
-					    <option value="roomate">Roomate Task</option>
+    				<label for="category"> Category:</label>
+					<select name="category" id="game_category">
+					    <option value="Miscelaneous">--Please choose an option--</option>
+					    <option value="Adventure">Adventure</option>
+					    <option value="Minigame">Minigame</option>
+					    <option value="RPG">RPG</option>
+                        <option value="Shooter">Shooter</option>
+                        <option value="Simulator">Simulator</option>
+                        <option value="Sport">Sport</option>
+                        <option value="Strategy">Strategy</option>
+                        <option value="VsFighter">VsFighter</option>
+                        
 					</select>
     			</div>
-    			<!-- The following hidden input is here to avoid a problem we had where the page refreshed on its own, removing the content of the console and tab-->
-    			<input type="text" name="helper" style="display:none;" required>
-			    <button onclick="add()">Add</button>
+			    <button onclick="decryptform()" type="reset">Add</button>
+                <button onclick="del()">Delete</button>
+                <button onclick="save()">Save List</button>
+                <button onclick="importsave()">Import List</button>
 			    <button type="reset">Cancel</button>
 			</form>
 		</section>
-		<main class="addtask">
-     		<table id="task-list">
+		<main class="addgame">
+     		<table id="game-list">
 			  <tr>
 			    <th>Title</th>
 			    <th>Category</th>

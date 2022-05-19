@@ -11,6 +11,11 @@ header{
    background-color:darkslategray;
 }
 
+.activePage{
+   background-color: white;
+   color: black;
+}
+
 header h1{
    color: white;
    font-size: 8vh;

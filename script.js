@@ -42,6 +42,38 @@ var data = [
         "cat":"vsfighter"
     }, 
     {
+        "title":"Street Fighter I",
+        "url":"https://images-na.ssl-images-amazon.com/images/I/81vvC0QT+QL.jpg",
+        "studio":"Capcom",
+        "editor":"Capcom",
+        "release":"1987",
+        "cat":"vsfighter"
+    }, 
+    {
+        "title":"Street Fighter II",
+        "url":"https://static.tvtropes.org/pmwiki/pub/images/sf2_akiman.png",
+        "studio":"Capcom",
+        "editor":"Capcom",
+        "release":"1994",
+        "cat":"vsfighter"
+    }, 
+    {
+        "title":"Street Fighter III",
+        "url":"https://www.fightersgeneration.com/nf9/game/sf3-3rd-strike-poster-art-by-daigo-ikeno.jpg",
+        "studio":"Capcom",
+        "editor":"Capcom",
+        "release":"1997",
+        "cat":"vsfighter"
+    }, 
+    {
+        "title":"Street Fighter IV",
+        "url":"https://cdn-products.eneba.com/resized-products/ZZCfbZT_350x200_1x-0.jpg",
+        "studio":"Capcom",
+        "editor":"Capcom",
+        "release":"2008",
+        "cat":"vsfighter"
+    }, 
+    {
         "title":"Street Fighter V",
         "url":"https://s1.gaming-cdn.com/images/products/5820/orig-fallback-v1/street-fighter-v-champion-edition-upgrade-kit-bundle-pc-jeu-steam-cover.jpg",
         "studio":"Capcom",
@@ -63,6 +95,46 @@ var data = [
         "studio":"Arc System Works",
         "editor":"Bandai Namco Entertainment",
         "release":"2018",
+        "cat":"vsfighter"
+    },
+    {
+        "title":"SoulCalibur I",
+        "url":"https://www.pixelheart.eu/wp-content/uploads/2021/03/Jaquette-Soulcalibur-Dreamcast-PAL.jpg",
+        "studio":"Project Soul",
+        "editor":"Bandai Namco Entertainment",
+        "release":"1998",
+        "cat":"vsfighter"
+    },
+    {
+        "title":"SoulCalibur II",
+        "url":"https://image.jeuxvideo.com/images/gc/s/o/soulgc0f.jpg",
+        "studio":"Project Soul",
+        "editor":"Bandai Namco Entertainment",
+        "release":"2002",
+        "cat":"vsfighter"
+    },
+    {
+        "title":"SoulCalibur III",
+        "url":"https://m.media-amazon.com/images/I/51RRA85H63L._AC_.jpg",
+        "studio":"Project Soul",
+        "editor":"Bandai Namco Entertainment",
+        "release":"2005",
+        "cat":"vsfighter"
+    },
+    {
+        "title":"SoulCalibur IV",
+        "url":"https://www.gamecash.fr/thumbnail-600/soulcalibur-iv-ps3-e10943.jpg",
+        "studio":"Project Soul",
+        "editor":"Bandai Namco Entertainment",
+        "release":"2008",
+        "cat":"vsfighter"
+    },
+    {
+        "title":"SoulCalibur V",
+        "url":"https://m.media-amazon.com/images/M/MV5BZWE3M2JjZjgtN2Y2My00MmY1LTkyNmYtOWMxNGUxZWIyZjI2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "studio":"Project Soul",
+        "editor":"Bandai Namco Entertainment",
+        "release":"2012",
         "cat":"vsfighter"
     },
     {

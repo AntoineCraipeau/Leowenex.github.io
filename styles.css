@@ -67,6 +67,39 @@ footer a{
    color: white;
 }
 
-th td{
+
+/*The following is mainly made for pages search and addgames*/
+
+main{
+   min-height: 100vh;
+}
+
+tr{
    border: 1px solid black;
+   display: inline-flex;
+}
+
+.gameinfo{
+   display: flex;
+   flex-direction: column;
+   margin-left: 5px;
+}
+
+.gameinfo td{
+   margin: 5px;
+}
+
+form{
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   min-height: max-content;
+   width: 100%;
+   background-color: darkslateblue;
+}
+
+form button{
+   margin-left: 0.1vw;
 }

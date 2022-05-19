@@ -620,9 +620,6 @@ function showfilter(data){
                             <img src="${r.url}" width="300" height="400">
                             <div class="gameinfo">
                                 <p>${r.title}</p>
-                                <p>${r.studio}</p>
-                                <p>${r.editor}</p>
-                                <p>${r.release}</p>
                             </div>
                             </div>`;
                         }

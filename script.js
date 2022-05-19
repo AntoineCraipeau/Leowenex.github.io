@@ -1,15 +1,29 @@
 var ref = {
-        "title":0,
-        "url":0,
-        "studio":0,
-        "editor":0,
-        "release":0,
+        "title":"",
+        "url":"",
+        "studio":"",
+        "editor":"",
+        "release":"",
         "cat":0
     }
 
+function setStudio(studio){
+    ref.studio = studio;
+    showfilter(data);
+}
+
+function setEditor(editor){
+    ref.editor = editor;
+    showfilter(data);
+}
+
+function setRelease(release){
+    ref.release = release;
+    showfilter(data);
+}
+
 function setCategory(cat){
     ref.cat = cat;
-    console.log(ref);
     showfilter(data);
 }
 
@@ -623,18 +637,23 @@ function showfilter(data){
         </tr>`;
     
     for (let r of data){
-        if (ref.cat ==0 || r.cat == ref.cat){
-            tab += `<tr>
-            <td>${r.title}</td>
-            <td><img src="${r.url}" width="300" height="400"></td>
-            <td>${r.studio}</td>
-            <td>${r.editor}</td>
-            <td>${r.release}</td>
-            </tr>`;
+        if (ref.cat == 0 || r.cat == ref.cat){
+            if (ref.studio == "" || r.studio.startsWith(ref.studio)){
+                if (ref.editor == "" || r.editor.startsWith(ref.editor)){
+                    if (ref.release == "" || r.release.startsWith(ref.release)){
+                        tab += `<tr>
+                        <td>${r.title}</td>
+                        <td><img src="${r.url}" width="300" height="400"></td>
+                        <td>${r.studio}</td>
+                        <td>${r.editor}</td>
+                        <td>${r.release}</td>
+                        </tr>`;
+                    }
+                }
+            }
         }
         document.getElementById("tables").innerHTML = tab;
     }
 
     document.getElementById("tables").innerHTML = tab;
 }
-

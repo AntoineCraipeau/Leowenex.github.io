@@ -27,9 +27,8 @@
 		</section>
 		<body>
 			<div>
-				<label for="category"> Category:</label>
 				<select name="category" id="game_category" onchange="setCategory(this.value)">
-					<option value=0>--Please choose an option--</option>
+					<option value=0>--Category--</option>
 					<option value="adventure">Adventure</option>
 					<option value="rpg">RPG</option>
 					<option value="shooter">Shooter</option>
@@ -38,6 +37,15 @@
 					<option value="strategy">Strategy</option>
 					<option value="vsfighter">VsFighter</option>	
 				</select>
+				<div>
+					<input type="text" id="studio" name="game_studio" placeholder="Enter the Studio" onchange="setStudio(this.value)">
+    			</div>
+				<div>
+					<input type="text" id="editor" name="game_editor" placeholder="Enter the Editor" onchange="setEditor(this.value)">
+    			</div>
+				<div>
+					<input type="text" id="release" name="game_release" placeholder="Enter the Year" onchange="setRelease(this.value)">
+    			</div>
 			</div>
 			<br>
 			<table id="tables"></table>

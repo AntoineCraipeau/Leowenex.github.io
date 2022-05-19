@@ -413,7 +413,7 @@ var data = [
         "editor":"Ubisoft",
         "release":"2021",
         "cat":"adventure"
-    },
+    }
 ]
 
 console.log(JSON.stringify(data));

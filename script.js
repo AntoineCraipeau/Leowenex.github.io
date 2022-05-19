@@ -336,7 +336,7 @@ var data = [
     },
     {
         "title":"Red Dead Redemption 2",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "url":"https://c.clc2l.com/t/R/e/Red-Dead-Redemption-II-Yq75UV.jpeg",
         "studio":"Rockstar Studios",
         "editor":"Rockstar Games",
         "release":"2018",
@@ -344,7 +344,7 @@ var data = [
     },
     {
         "title":"Marvel's Spider-Man",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "url":"https://image.api.playstation.com/vulcan/img/rnd/202011/0714/vuF88yWPSnDfmFJVTyNJpVwW.png",
         "studio":"Insomniac Games",
         "editor":"Sony Interactive Entertainment",
         "release":"2018",
@@ -352,7 +352,7 @@ var data = [
     },
     {
         "title":"God of War",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "url":"https://s3.gaming-cdn.com/images/products/7325/orig-fallback-v1/god-of-war-pc-jeu-steam-cover.jpg",
         "studio":"SIE Santa Monica Studio",
         "editor":"Sony Interactive Entertainment",
         "release":"2018",
@@ -360,7 +360,7 @@ var data = [
     },
     {
         "title":"Life is Strange",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "url":"https://images-na.ssl-images-amazon.com/images/I/71CldaqtU-L.jpg",
         "studio":"Dontnod Entertainment",
         "editor":"Square Enix",
         "release":"2015",
@@ -368,7 +368,7 @@ var data = [
     },
     {
         "title":"Kingdom Hearts 3",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "url":"https://image.jeuxvideo.com/medias/161722/1617220611-4137-jaquette-avant.jpg",
         "studio":"Square Enix",
         "editor":"Square Enix",
         "release":"2019",
@@ -376,42 +376,42 @@ var data = [
     },
     {
         "title":"The Witcher 3: Wild Hunt",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
-        "studio":"Paradox Developement Studio",
-        "editor":"Paradox Interactive",
-        "release":"2020",
+        "url":"https://image.api.playstation.com/vulcan/img/rnd/202009/2913/TQKAd8U6hnIFQIIcz6qnFh8C.png",
+        "studio":"CD Projekt RED",
+        "editor":"CD Projekt RED",
+        "release":"2015",
         "cat":"adventure"
     },
     {
         "title":"Ratchet et Clank: Rift Apart",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
-        "studio":"Paradox Developement Studio",
-        "editor":"Paradox Interactive",
-        "release":"2020",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202101/2921/DwVjpbKOsFOyPdNzmSTSWuxG.png",
+        "studio":"Insomniac Games",
+        "editor":"Sony Interactive Entertainment",
+        "release":"2021",
         "cat":"adventure"
     },
     {
         "title":"The Legend of Zelda: Breath of the Wild",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
-        "studio":"Paradox Developement Studio",
-        "editor":"Paradox Interactive",
-        "release":"2020",
+        "url":"https://cdn-bnplf.nitrocdn.com/PnTamyYWaToimYiFMSaQnRpmLLjgNHjT/assets/static/optimized/rev-4b75941/images/games/5632786/the-legend-of-zelda-breath-of-the-wild-desktop-logo-all.jpg",
+        "studio":"Nintendo Entertainment Planning & Development",
+        "editor":"Nintendo",
+        "release":"2017",
         "cat":"adventure"
     },
     {
         "title":"Until Dawn",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
-        "studio":"Paradox Developement Studio",
-        "editor":"Paradox Interactive",
-        "release":"2020",
+        "url":"https://image.api.playstation.com/vulcan/img/rnd/202010/2318/2cJRHg2UOwbvp10QxGrbX62S.png",
+        "studio":"Supermassive Games",
+        "editor":"Sony Interactive Entertainment",
+        "release":"2015",
         "cat":"adventure"
     },
     {
         "title":"Far Cry 6",
-        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
-        "studio":"Paradox Developement Studio",
-        "editor":"Paradox Interactive",
-        "release":"2020",
+        "url":"https://image.api.playstation.com/vulcan/img/rnd/202106/1514/RBmWUk2SrhLopsMXNCSZlQpG.png",
+        "studio":"Ubisoft Toronto",
+        "editor":"Ubisoft",
+        "release":"2021",
         "cat":"adventure"
     },
 ]

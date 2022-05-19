@@ -413,6 +413,166 @@ var data = [
         "editor":"Ubisoft",
         "release":"2021",
         "cat":"adventure"
+    },
+    {
+        "title":"Elden Ring",
+        "url":"https://preview.redd.it/u7j3o6aasgl81.jpg?auto=webp&s=c30e4902e2c7a28ff3e996905c540da9113d6708",
+        "studio":"FromSoftware",
+        "editor":"Bandai Namco Entertainment",
+        "release":"2022",
+        "cat":"rpg"
+    },
+    {
+        "title":"Cyberpunk 2077",
+        "url":"https://image.jeuxvideo.com/medias-sm/163835/1638354762-4961-jaquette-avant.gif",
+        "studio":"CD Projekt RED",
+        "editor":"CD Projekt RED",
+        "release":"2020",
+        "cat":"rpg"
+    },
+    {
+        "title":"Diablo III",
+        "url":"https://jeuxfaisquoi.fr/wp-content/uploads/2020/04/Diablo3.jpg",
+        "studio":"Blizzard Entertainment",
+        "editor":"Blizzard Entertainment",
+        "release":"2012",
+        "cat":"rpg"
+    },
+    {
+        "title":"The Elder Scrolls V: Skyrim",
+        "url":"https://static.wikia.nocookie.net/elderscrolls/images/c/c5/Skyrim_Cover.png/revision/latest?cb=20160812173034",
+        "studio":"Bethesda Game Studios",
+        "editor":"Bethesda Softworks",
+        "release":"2011",
+        "cat":"rpg"
+    },
+    {
+        "title":"Genshin Impact",
+        "url":"https://image.jeuxvideo.com/medias-sm/163299/1632994028-1028-jaquette-avant.png",
+        "studio":"MiHoYo",
+        "editor":"MiHoYo",
+        "release":"2020",
+        "cat":"rpg"
+    },
+    {
+        "title":"Mass Effect: Legendary Edition",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202101/2517/xK2b8gY5A5oyYlc1pnUUVEm5.png",
+        "studio":"BioWare",
+        "editor":"EA",
+        "release":"2021",
+        "cat":"rpg"
+    },
+    {
+        "title":"Deus Ex",
+        "url":"https://gh.cdn.sewest.net/assets/ident//games/deus-ex-mankind-divided/fr_FR/GamePage_Header_Portrait_03.jpg?quality=65&width=960px&height=1280px",
+        "studio":"Square Enix",
+        "editor":"Square Enix",
+        "release":"2016",
+        "cat":"rpg"
+    },
+    {
+        "title":"Pillars of Eternity",
+        "url":"https://image.api.playstation.com/vulcan/img/rnd/202009/3011/zeqvemQByqfhE9wVcFiEZAvc.png",
+        "studio":"Obsidian Entertainment",
+        "editor":"Versus Evil",
+        "release":"2015",
+        "cat":"rpg"
+    },
+    {
+        "title":"Disco Elysium",
+        "url":"https://cdn.cdkeys.com/500x706/media/catalog/product/e/u/eu-generic-coverart_3_.jpg",
+        "studio":"ZA/UM",
+        "editor":"ZA/UM",
+        "release":"2019",
+        "cat":"rpg"
+    },
+    {
+        "title":"Neverwinter",
+        "url":"https://top-mmorpg.ru/uploads/posts/2020-07/1594598309_neverwinter-online-poster-4-top-mmorpg_ru.jpg",
+        "studio":"Cryptic Studios",
+        "editor":"Perfect World Entertainment",
+        "release":"2013",
+        "cat":"rpg"
+    },
+    {
+        "title":"Doom Eternal",
+        "url":"https://images-na.ssl-images-amazon.com/images/I/91qm95y+rZL.jpg",
+        "studio":"id Software",
+        "editor":"Bethesda Softworks",
+        "release":"2020",
+        "cat":"shooter"
+    },
+    {
+        "title":"Destiny 2",
+        "url":"https://storage.googleapis.com/tayara-migration-yams-pro/de/de7bc7a9-6268-4948-ad4e-3c6c8d02f218.jpg",
+        "studio":"Bungie Studios",
+        "editor":"Activision",
+        "release":"2017",
+        "cat":"shooter"
+    },
+    {
+        "title":"Call of Duty: Warzone",
+        "url":"https://sm.ign.com/ign_fr/cover/c/call-of-du/call-of-duty-warzone_r924.jpg",
+        "studio":"Raven Software",
+        "editor":"Activision",
+        "release":"2020",
+        "cat":"shooter"
+    },
+    {
+        "title":"Half-Life: Alyx",
+        "url":"https://image.jeuxvideo.com/medias/157436/1574359512-5514-jaquette-avant.png",
+        "studio":"Valve",
+        "editor":"Valve",
+        "release":"2020",
+        "cat":"shooter"
+    },
+    {
+        "title":"Tom Clancy's Rainbow Six Siege",
+        "url":"https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw96e74d63/images/large/56c494ad88a7e300458b4d5a.jpg?sw=341&sh=450&sm=fit",
+        "studio":"Ubisoft Montréal",
+        "editor":"Ubisoft",
+        "release":"2015",
+        "cat":"shooter"
+    },
+    {
+        "title":"Titanfall 2",
+        "url":"https://image.api.playstation.com/cdn/EP0006/CUSA04013_00/4bI5D3WvesQPmegKpGINAimOsS27D688.png",
+        "studio":"Respawan Entertainment",
+        "editor":"EA",
+        "release":"2016",
+        "cat":"shooter"
+    },
+    {
+        "title":"Black Mesa",
+        "url":"https://www.jvfrance.com/wp-content/uploads/2021/02/Black-Mesa.jpg",
+        "studio":"Crowbar Collective",
+        "editor":"Crowbar Collective",
+        "release":"2015",
+        "cat":"shooter"
+    },
+    {
+        "title":"Apex Legends",
+        "url":"https://image.jeuxvideo.com/medias/155137/1551371304-2322-jaquette-avant.jpg",
+        "studio":"Respawn Entertainment",
+        "editor":"EA",
+        "release":"2019",
+        "cat":"shooter"
+    },
+    {
+        "title":"Fortnite",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202203/1819/sbaZEJ4jKCsdLAjQwVPSzMza.png",
+        "studio":"Epic Games",
+        "editor":"Epic Games",
+        "release":"2017",
+        "cat":"shooter"
+    },
+    {
+        "title":"Overwatch",
+        "url":"https://s1.gaming-cdn.com/images/products/2208/orig-fallback-v1/overwatch-pc-jeu-battlenet-cover.jpg",
+        "studio":"Blizzard Entertainment",
+        "editor":"Blizzard Entertainment",
+        "release":"2016",
+        "cat":"shooter"
     }
 ]
 

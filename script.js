@@ -608,7 +608,7 @@ console.log(JSON.stringify(data));
 showfilter(data);
 
 function showfilter(data){
-    let tab;
+    let tab = "<br>";
     
     for (let r of data){
         if (ref.title == "" || r.title.toLowerCase().startsWith(ref.title.toLowerCase())){

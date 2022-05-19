@@ -616,15 +616,15 @@ function showfilter(data){
                 if (ref.studio == "" || r.studio.toLowerCase().startsWith(ref.studio.toLowerCase())){
                     if (ref.editor == "" || r.editor.toLowerCase().startsWith(ref.editor.toLowerCase())){
                         if (ref.release == "" || r.release.toLowerCase().startsWith(ref.release.toLowerCase())){
-                            tab += `<tr>
-                            <td><img src="${r.url}" width="300" height="400"></td>
+                            tab += `<div class="game">
+                            <img src="${r.url}" width="300" height="400">
                             <div class="gameinfo">
-                                <td>${r.title}</td>
-                                <td>${r.studio}</td>
-                                <td>${r.editor}</td>
-                                <td>${r.release}</td>
+                                <p>${r.title}</p>
+                                <p>${r.studio}</p>
+                                <p>${r.editor}</p>
+                                <p>${r.release}</p>
                             </div>
-                            </tr>`;
+                            </div>`;
                         }
                     }
                 }

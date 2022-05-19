@@ -79,9 +79,13 @@ main{
    min-height: 100vh;
 }
 
-tr{
-   border: 1px solid black;
-   display: inline-flex;
+#tables{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.game{
+   display: flex;
 }
 
 .gameinfo{
@@ -89,6 +93,7 @@ tr{
    flex-direction: column;
    margin-left: 5px;
 }
+
 
 .gameinfo td{
    margin: 5px;

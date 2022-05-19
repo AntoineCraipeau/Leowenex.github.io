@@ -98,18 +98,16 @@ main{
 }
 
 .gameinfo{
-   display: flex;
-   flex-direction: column;
    background-color: darkslategray;
    color: white;
    align-content: center;
    text-align: center;
-   height: 5vh;
-}
-
-
-.gameinfo td{
-   margin: 5px;
+   height: 6vh;
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   font-size: 2.5vh;
+   width: 300px;
+   overflow: hidden;
 }
 
 form{

@@ -16,45 +16,16 @@ function decryptform(){
 
 function add(game){
 
-    
+	var ntab = `
+    <div class="game">
+    <img src="${game.url}" width="300" height="400">
+    <div class="gameinfo">
+        <p>${game.title}</p>
+    </div>
+    </div>
+    `;
 
-	var tr = document.createElement("tr");
-
-    var image = document.createElement("img");
-    image.src = game.url;
-    image.width = "300";
-    image.height = "400";
-    tr.append(image);
-
-    var infodiv = document.createElement("div");
-    infodiv.className = "gameinfo";
-
-
-	var tdtitle = document.createElement("td");
-	tdtitle.appendChild(document.createTextNode(game.title));
-    infodiv.appendChild(tdtitle);
-
-    var tdcat = document.createElement("td");
-	tdcat.appendChild(document.createTextNode(game.cat));
-    infodiv.appendChild(tdcat);
-
-	var tdstudio = document.createElement("td");
-	tdstudio.appendChild(document.createTextNode(game.studio));
-    infodiv.appendChild(tdstudio);
-
-	var tdpublisher = document.createElement("td");
-	tdpublisher.appendChild(document.createTextNode(game.editor));
-    infodiv.appendChild(tdpublisher);
-
-    var tdrelease = document.createElement("td");
-	tdrelease.appendChild(document.createTextNode(game.release));
-    infodiv.appendChild(tdrelease);
-
-    tr.appendChild(infodiv);
-
-	var currentDiv = document.getElementById('game-list');
-	console.log(currentDiv);
-	currentDiv.appendChild(tr);
+	document.getElementById("game-list").innerHTML = ntab;
   	
 }
 

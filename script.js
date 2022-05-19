@@ -416,6 +416,15 @@ var data = [
     }
 ]
 
+let imports = (JSON.parse(localStorage.getItem("saveadd")))
+if(imports==null){
+    imports = [];
+}
+for(let game of imports){
+    data.push(game);
+}
+
+
 console.log(JSON.stringify(data));
 
 show(data);

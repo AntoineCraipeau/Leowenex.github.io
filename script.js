@@ -1,10 +1,9 @@
-[
+const data = [
     {
         "title":"GUILTY GEAR -STRIVE-",
         "studio":"Arc System Works",
         "editor":"Bandai Namco",
         "release":"2021",
-        "url":"https://s1.gaming-cdn.com/images/products/6948/orig-fallback-v1/jeu-steam-guilty-gear-strive-cover.jpg"
     }, 
     {
         "title":"Street Fighter V",
@@ -61,3 +60,34 @@
         "release":"2019"
     }
 ]
+
+console.log(JSON.stringify(data));
+
+
+function load(){
+    document.getElementById('loading').style.display = 'none';
+}
+
+
+function show(data){
+    let tab = 
+        `<tr>
+            <th>Title</th>
+            <th>Studio</th>
+            <th>Editor</th>
+            <th>Release</th>
+        </tr>`;
+    
+    for (let r of data){
+        tab += `<tr>
+        <td>${r.title}</td>
+        <td>${r.studio}</td>
+        <td>${r.editor}</td>
+        <td>${r.release}</td>
+        </tr>`;
+    }
+
+    document.getElementById("tables").innerHTML = tab; 
+
+    show(data);
+}

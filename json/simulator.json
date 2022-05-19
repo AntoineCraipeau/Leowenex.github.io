@@ -1,0 +1,62 @@
+[
+    {
+        "title":"Sims 4",
+        "studio":"Maxis",
+        "editor":"EA",
+        "release":"2014"
+    }, 
+    {
+        "title":"Euro Truck Simulator 2",
+        "studio":"SCS Software",
+        "editor":"SCS Software",
+        "release":"2012"
+    }, 
+    {
+        "title":"Bus Simulator 21",
+        "studio":"Stillalive Studios",
+        "editor":"Astragon",
+        "release":"2021"
+    },
+    {
+        "title":"Animal Crossing: New Horizons",
+        "studio":"Nintendo EPD",
+        "editor":"Nintendo",
+        "release":"2020"
+    },
+    {
+        "title":"Goat Simulator",
+        "studio":"Coffee Stain Studios",
+        "editor":"Cofee Stain Studios",
+        "release":"2014"
+    },
+    {
+        "title":"Youtubers Life 2",
+        "studio":"UPlay Online",
+        "editor":"Raiser Games",
+        "release":"2021"
+    },
+    {
+        "title":"Flight Simulator",
+        "studio":"Asobo Studio",
+        "editor":"Aerosoft",
+        "release":"2020"
+    },
+    {
+        "title":"Farming Simulator",
+        "studio":"GIANTS Software",
+        "editor":"GIANTS Software",
+        "release":"2019"
+    },
+    {
+        "title":"Hunting Simulator 2",
+        "studio":"Neopica",
+        "editor":"Nacon",
+        "release":"2020"
+    },
+    {
+        "title":"Ultimate Fishing Simulator 2",
+        "studio":"MasterCode",
+        "editor":"Ultimate Games",
+        "release":"2021"
+    }
+]

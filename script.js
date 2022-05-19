@@ -1,3 +1,18 @@
+var ref = {
+        "title":0,
+        "url":0,
+        "studio":0,
+        "editor":0,
+        "release":0,
+        "cat":0
+    }
+
+function setCategory(cat){
+    ref.cat = cat;
+    console.log(ref);
+    showfilter(data);
+}
+
 var data = [
     {
         "title":"GUILTY GEAR -STRIVE-",
@@ -318,7 +333,87 @@ var data = [
         "editor":"Feral Interactive",
         "release":"2017",
         "cat":"strategy"
-    }
+    },
+    {
+        "title":"Red Dead Redemption 2",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Rockstar Studios",
+        "editor":"Rockstar Games",
+        "release":"2018",
+        "cat":"adventure"
+    },
+    {
+        "title":"Marvel's Spider-Man",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Insomniac Games",
+        "editor":"Sony Interactive Entertainment",
+        "release":"2018",
+        "cat":"adventure"
+    },
+    {
+        "title":"God of War",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"SIE Santa Monica Studio",
+        "editor":"Sony Interactive Entertainment",
+        "release":"2018",
+        "cat":"adventure"
+    },
+    {
+        "title":"Life is Strange",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Dontnod Entertainment",
+        "editor":"Square Enix",
+        "release":"2015",
+        "cat":"adventure"
+    },
+    {
+        "title":"Kingdom Hearts 3",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Square Enix",
+        "editor":"Square Enix",
+        "release":"2019",
+        "cat":"adventure"
+    },
+    {
+        "title":"The Witcher 3: Wild Hunt",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Paradox Developement Studio",
+        "editor":"Paradox Interactive",
+        "release":"2020",
+        "cat":"adventure"
+    },
+    {
+        "title":"Ratchet et Clank: Rift Apart",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Paradox Developement Studio",
+        "editor":"Paradox Interactive",
+        "release":"2020",
+        "cat":"adventure"
+    },
+    {
+        "title":"The Legend of Zelda: Breath of the Wild",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Paradox Developement Studio",
+        "editor":"Paradox Interactive",
+        "release":"2020",
+        "cat":"adventure"
+    },
+    {
+        "title":"Until Dawn",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Paradox Developement Studio",
+        "editor":"Paradox Interactive",
+        "release":"2020",
+        "cat":"adventure"
+    },
+    {
+        "title":"Far Cry 6",
+        "url":"https://image.api.playstation.com/vulcan/ap/rnd/202108/1607/cWFhlMdzAFCcosz8L1paaKF6.jpg",
+        "studio":"Paradox Developement Studio",
+        "editor":"Paradox Interactive",
+        "release":"2020",
+        "cat":"adventure"
+    },
 ]
 
 console.log(JSON.stringify(data));
@@ -348,6 +443,29 @@ function show(data){
     document.getElementById("tables").innerHTML = tab;
 }
 
-function tdclick(r){
-    console.log("hello");
+function showfilter(data){
+    let tab = 
+        `<tr>
+            <th>Title</th>
+            <th>Image</th>
+            <th>Studio</th>
+            <th>Editor</th>
+            <th>Release</th>
+        </tr>`;
+    
+    for (let r of data){
+        if (ref.cat ==0 || r.cat == ref.cat){
+            tab += `<tr>
+            <td>${r.title}</td>
+            <td><img src="${r.url}" width="300" height="400"></td>
+            <td>${r.studio}</td>
+            <td>${r.editor}</td>
+            <td>${r.release}</td>
+            </tr>`;
+        }
+        document.getElementById("tables").innerHTML = tab;
+    }
+
+    document.getElementById("tables").innerHTML = tab;
 }
+

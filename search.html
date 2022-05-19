@@ -17,14 +17,29 @@
 			</ul>
 		</header>
 		<h1>Copium - Search</h1>
+		<br>
 		<section>
-			<h1>Copium - Search</h1>
 			<form>
 				<input>
 			</form>
 			<br>
 		</section>
 		<body>
+			<div>
+				<label for="category"> Category:</label>
+				<select name="category" id="game_category" onchange="setCategory(this.value)">
+					<option value=0>--Please choose an option--</option>
+					<option value="adventure">Adventure</option>
+					<option value="minigame">Minigame</option>
+					<option value="rpg">RPG</option>
+					<option value="shooter">Shooter</option>
+					<option value="simulator">Simulator</option>
+					<option value="sport">Sport</option>
+					<option value="strategy">Strategy</option>
+					<option value="vsfighter">VsFighter</option>	
+				</select>
+			</div>
+			<br>
 			<table id="tables"></table>
 			<script type="text/javascript" src="./script.js"></script>
 		</body>

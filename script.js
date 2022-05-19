@@ -63,11 +63,7 @@ const data = [
 
 console.log(JSON.stringify(data));
 
-
-function load(){
-    document.getElementById('loading').style.display = 'none';
-}
-
+show(data);
 
 function show(data){
     let tab = 
@@ -87,7 +83,5 @@ function show(data){
         </tr>`;
     }
 
-    document.getElementById("tables").innerHTML = tab; 
-
-    show(data);
+    document.getElementById("tables").innerHTML = tab;
 }

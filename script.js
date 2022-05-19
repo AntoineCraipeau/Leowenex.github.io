@@ -7,6 +7,11 @@ var ref = {
         "cat":0
     }
 
+function setTitle(title){
+    ref.title = title;
+    showfilter(data);
+}
+
 function setStudio(studio){
     ref.studio = studio;
     showfilter(data);
@@ -598,56 +603,29 @@ for(let game of imports){
     data.push(game);
 }
 
-
 console.log(JSON.stringify(data));
 
-show(data);
-
-function show(data){
-    let tab = 
-        `<tr>
-            <th>Title</th>
-            <th>Image</th>
-            <th>Studio</th>
-            <th>Editor</th>
-            <th>Release</th>
-        </tr>`;
-    
-    for (let r of data){
-        tab += `<tr>
-        <td>${r.title}</td>
-        <td><img src="${r.url}" width="300" height="400"></td>
-        <td>${r.studio}</td>
-        <td>${r.editor}</td>
-        <td>${r.release}</td>
-        </tr>`;
-    }
-
-    document.getElementById("tables").innerHTML = tab;
-}
+showfilter(data);
 
 function showfilter(data){
-    let tab = 
-        `<tr>
-            <th>Title</th>
-            <th>Image</th>
-            <th>Studio</th>
-            <th>Editor</th>
-            <th>Release</th>
-        </tr>`;
+    let tab;
     
     for (let r of data){
-        if (ref.cat == 0 || r.cat == ref.cat){
-            if (ref.studio == "" || r.studio.startsWith(ref.studio)){
-                if (ref.editor == "" || r.editor.startsWith(ref.editor)){
-                    if (ref.release == "" || r.release.startsWith(ref.release)){
-                        tab += `<tr>
-                        <td>${r.title}</td>
-                        <td><img src="${r.url}" width="300" height="400"></td>
-                        <td>${r.studio}</td>
-                        <td>${r.editor}</td>
-                        <td>${r.release}</td>
-                        </tr>`;
+        if (ref.title == "" || r.title.toLowerCase().startsWith(ref.title.toLowerCase())){
+            if (ref.cat == 0 || r.cat.toLowerCase() == ref.cat.toLowerCase()){
+                if (ref.studio == "" || r.studio.toLowerCase().startsWith(ref.studio.toLowerCase())){
+                    if (ref.editor == "" || r.editor.toLowerCase().startsWith(ref.editor.toLowerCase())){
+                        if (ref.release == "" || r.release.toLowerCase().startsWith(ref.release.toLowerCase())){
+                            tab += `<tr>
+                            <td><img src="${r.url}" width="300" height="400"></td>
+                            <div class="gameinfo">
+                                <td>${r.title}</td>
+                                <td>${r.studio}</td>
+                                <td>${r.editor}</td>
+                                <td>${r.release}</td>
+                            </div>
+                            </tr>`;
+                        }
                     }
                 }
             }

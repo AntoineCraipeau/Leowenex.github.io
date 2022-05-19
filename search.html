@@ -17,26 +17,23 @@
 				<li><a href="about.html">About</a></li>
 			</ul>
 		</header>
-		<h1>Copium - Search</h1>
-		<br>
 		<section>
 			<form>
-				<input>
-			</form>
-			<br>
-		</section>
-		<body>
-			<div>
-				<select name="category" id="game_category" onchange="setCategory(this.value)">
-					<option value=0>--Category--</option>
-					<option value="adventure">Adventure</option>
-					<option value="rpg">RPG</option>
-					<option value="shooter">Shooter</option>
-					<option value="simulator">Simulator</option>
-					<option value="sport">Sport</option>
-					<option value="strategy">Strategy</option>
-					<option value="vsfighter">VsFighter</option>	
-				</select>
+				<div>
+					<input type="text" id="title" name="game_title" placeholder="Enter the Title" onchange="setTitle(this.value)">
+    			</div>
+				<div>
+					<select name="category" id="game_category" onchange="setCategory(this.value)">
+						<option value=0>--Category--</option>
+						<option value="adventure">Adventure</option>
+						<option value="rpg">RPG</option>
+						<option value="shooter">Shooter</option>
+						<option value="simulator">Simulator</option>
+						<option value="sport">Sport</option>
+						<option value="strategy">Strategy</option>
+						<option value="vsfighter">VsFighter</option>	
+					</select>
+				</div>
 				<div>
 					<input type="text" id="studio" name="game_studio" placeholder="Enter the Studio" onchange="setStudio(this.value)">
     			</div>
@@ -46,7 +43,10 @@
 				<div>
 					<input type="text" id="release" name="game_release" placeholder="Enter the Year" onchange="setRelease(this.value)">
     			</div>
-			</div>
+			</form>
+			<br>
+		</section>
+		<body>
 			<br>
 			<table id="tables"></table>
 			<script type="text/javascript" src="./script.js"></script>

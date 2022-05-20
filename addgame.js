@@ -21,6 +21,12 @@ function add(game){
     <img src="${game.url}" width="300" height="400">
     <div class="gameinfo">
         <p>${game.title}</p>
+        <div class="moreinfo">
+            <br>
+            <p>${r.studio}</p>
+            <p>${r.editor}</p>
+            <p>${r.release}</p>
+        </div>
     </div>
     </div>
     `;

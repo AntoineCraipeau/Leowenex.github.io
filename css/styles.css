@@ -11,9 +11,10 @@ body{
 
 header{
    position: sticky;
+   text-align: right;
    top: 0;
    border-bottom: solid black 1px;
-   background-color:darkslategray;
+   background-color:#DC143C;
 }
 
 .activePage{
@@ -35,8 +36,8 @@ header ul{
 }
 
 header li{
-   float: left;
-   background-color:darkslategray;
+   float: right;
+   background-color:#DC143C;
 }
 
 header li a {
@@ -61,14 +62,69 @@ article{
    text-justify: auto;
 }
 
+header h1{
+   background-color:black;
+}
+
+.logo {
+   float: left;
+   margin-top: -73px;
+   margin-left: 60px;
+   background-color: black;
+   width: 73px;
+   height: 73px;
+}
+
 article h1{
    font-size: 5vh;
    font-weight: bold;
    padding-bottom: 1vh;
 }
 
+.firstimg {
+   filter: brightness(30%);
+}
+
+.slidetitle {
+   font-size: 25px;
+   color: white; 
+   position: absolute;
+   top: 40%;
+   left: 18%;
+   transform: translate(-30%, -25%);
+}
+
+.slidetext {
+   font-size: 15px;
+   padding: 10px 400px 20px;
+   color: white; 
+   position: absolute;
+   top: 60%;
+   left: 6.5%;
+   transform: translate(-30%, -25%);
+}
+
+.row {
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   display: flex;
+   flex-direction: row;
+}
+
+.column {
+   margin: auto;
+   margin-top: 10vh;
+   padding: 5%;
+   background-color: black;
+}
+
+.link {
+   color: white;
+   text-decoration: none;
+}
+
 footer{
-   background-color:darkslategray;
+   background-color:#DC143C;
    text-align: center;
    height: 5vh;
 }
@@ -76,7 +132,6 @@ footer{
 footer a{
    color: white;
 }
-
 
 /*The following is mainly made for pages search and addgames*/
 
@@ -137,14 +192,21 @@ main{
 }
 
 form{
+   margin: auto;
+   margin-top: 10vh;
    padding-top: 2vh;
    padding-bottom: 2vh;
-   display: inline-flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
    min-height: max-content;
-   width: 100%;
-   background-color: lightseagreen;
+   width: 80%;
+   background-color: lightslategray;
+}
+
+.choice {
+   flex-direction: column;
+   line-height: 300%;
 }
 
 form button{
@@ -174,5 +236,5 @@ form button{
 }
 
 .project{
-   width: 90vh;
+   width: 1000px;
 }

@@ -191,9 +191,14 @@ main{
    display: block;
 }
 
+.gameadd {
+   margin-top: 5%;
+   margin-left: 40%;
+}
+
 form{
    margin: auto;
-   margin-top: 10vh;
+   margin-top: 6vh;
    padding-top: 2vh;
    padding-bottom: 2vh;
    display: flex;
@@ -236,5 +241,5 @@ form button{
 }
 
 .project{
-   width: 1000px;
+   width: 90vh;
 }

@@ -17,7 +17,7 @@ function decryptform(){
 function add(game){
 
 	var ntab = `
-    <div class="game">
+    <div class="gameadd">
     <img src="${game.url}" width="300" height="400">
     <div class="gameinfo">
         <p>${game.title}</p>

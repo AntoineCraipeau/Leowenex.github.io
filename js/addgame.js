@@ -1,7 +1,7 @@
 var list = [];
 
 function decryptform(){
-    var game = document.forms["newGame"];
+    var game = document.forms.newGame;
     let gameobject = ({
         "title":game.elements.title.value,
         "url":game.elements.image.value,
@@ -23,9 +23,9 @@ function add(game){
         <p>${game.title}</p>
         <div class="moreinfo">
             <br>
-            <p>${r.studio}</p>
-            <p>${r.editor}</p>
-            <p>${r.release}</p>
+            <p>${game.studio}</p>
+            <p>${game.editor}</p>
+            <p>${game.release}</p>
         </div>
     </div>
     </div>

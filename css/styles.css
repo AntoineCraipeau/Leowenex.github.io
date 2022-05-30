@@ -7,6 +7,8 @@
 
 body{
    background-color: lightgrey;
+   background-image: linear-gradient(rgb(37, 46, 39, 0.7), rgb(220,20,61,0.5));
+   background-repeat: repeat;
 }
 
 header{
@@ -80,78 +82,6 @@ article h1{
    font-size: 5vh;
    font-weight: bold;
    padding-bottom: 1vh;
-}
-
-.firstart{
-   background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/library_background.jpg");
-   background-repeat: repeat;
-   min-height: 600px;
-   align-content: center;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-bottom: 20px;
-}
-
-.slidetitle {
-   font-size: 25px;
-   color: white; 
-   margin-top: 200px;
-   margin-left: 3vh;
-   /*
-   position: absolute;
-   top: 40%;
-   left: 18%;
-   transform: translate(-30%, -25%);
-   */
-}
-
-.slidetext {
-   font-size: 15px;
-   color: white;
-   margin-top: 50px;
-   margin-left: 5vw;
-   margin-right: 50vw;
-   /* 
-   padding: 10px 400px 20px;
-   position: absolute;
-   top: 60%;
-   left: 6.5%;
-   transform: translate(-30%, -25%);
-   */
-}
-
-.row {
-   padding-top: 2vh;
-   padding-bottom: 2vh;
-   display: flex;
-   flex-direction: row;
-}
-
-.link {
-   text-decoration: none;
-   margin: auto;
-   margin-top: 10vh;
-   padding: 5%;
-   background-color: black;
-   width: 20vw;
-   height: 8vh;
-   overflow-y: hidden;
-}
-
-.hidden {
-   padding-top: 5px;
-   padding-left: 5px;
-   font-size: 2vh;
-   color: black;
-}
-
-.row a:hover .hidden{
-   color: white;
-}
-
-.column {
-   color: white;
-   text-decoration: none;
 }
 
 footer{

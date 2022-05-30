@@ -60,11 +60,11 @@ header h1{
 
 .logo {
    float: left;
-   margin-top: -73px;
-   margin-left: 60px;
+   margin-top: -10.1vh;
+   margin-left: 0.1vh;
    background-color: black;
-   width: 73px;
-   height: 73px;
+   width: auto;
+   height: 10vh;
 }
 
 

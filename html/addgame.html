@@ -4,7 +4,7 @@
 		<title>Copium - Web Programming Project</title>
 		<meta charset="UTF-8">
 		<link rel= "stylesheet" href="../css/styles.css">
-		<script type="text/javascript" src="../js/addgame.js"></script>
+		<link rel= "stylesheet" href="../css/style_lists.css">
 	</head>
 	<body>
 		<header>
@@ -19,56 +19,22 @@
 				<li><a href="index.html">Home</a></li>
 			</ul>
 		</header>
-		<section class="addgame">
-
-			<form name="newGame" class="box" id="newGame" onsubmit="">
-				<div class="choice">
-					<div>
-						<input type="text" id="title" name="game_title" placeholder="Enter game title" required>
-					</div>
-					<div>
-						<input type="text" id="image" name="game_image" placeholder="Enter link to game poster" required>
-					</div>
-					<div>
-						<input type="text" id="studio" name="game_studio" placeholder="Enter studio" required>
-					</div>
-					<div>
-						<input type="text" id="publisher" name="game_publisher" placeholder="Enter publisher" required>
-					</div>
-					<div>
-						<input type="date" id="release" name="game_release"
-							value="2022-04-22" min="2022-04-22">
-					</div>
-					<div>
-						<select name="category" id="game_category">
-							<option value="Miscelaneous">--Please choose an option--</option>
-							<option value="Adventure">Adventure</option>
-							<option value="RPG">RPG</option>
-							<option value="Shooter">Shooter</option>
-							<option value="Simulator">Simulator</option>
-							<option value="Sport">Sport</option>
-							<option value="Strategy">Strategy</option>
-							<option value="VsFighter">VsFighter</option>
-						</select>
-					</div>
-				</div>
-                <div>
-                    <button onclick="decryptform()" type="reset">Add</button>
-                    <button onclick="del()">Delete</button>
-                    <button onclick="save()">Save List</button>
-                    <button onclick="importsave()">Import List</button>
-                    <button onclick="deletesave()">Delete Save</button>
-                    <button type="reset">Cancel</button>
-                </div>
-                </form>
-			</form>
-		</section>
-		<main class="addgame">
-     		<div id="game-list">
-
+		<main>
+			<div class="headprompt">
+				<h2>Wanna add something to your list ?</h2>
+				<button class="revelator" onclick="reveal()">Click Here</button>
 			</div>
-     	</main>
+			<div class="headform">
+				
+			</div>
+			<div class="addgame">
+				<table id="game-list">
+
+				</table>
+			</div>
+		</main>
 		<footer>
+			<script src="../js/addgame.js"></script>
 			<a href="about.html">Contact</a>
 		</footer>
     </body>

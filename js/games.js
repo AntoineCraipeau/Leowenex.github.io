@@ -562,6 +562,14 @@ var data = [
         "cat":"rpg"
     },
     {
+        "title":"The Elder Scrolls: Online",
+        "url":"https://images-na.ssl-images-amazon.com/images/I/81hIHJomPRL.jpg",
+        "studio":"ZeniMax Online Studios",
+        "editor":"Bethesda Softworks",
+        "release":"2014",
+        "cat":"rpg"
+    },
+    {
         "title":"The Legend of Zelda: Breath of the Wild",
         "url":"https://cdn-bnplf.nitrocdn.com/PnTamyYWaToimYiFMSaQnRpmLLjgNHjT/assets/static/optimized/rev-4b75941/images/games/5632786/the-legend-of-zelda-breath-of-the-wild-desktop-logo-all.jpg",
         "studio":"Nintendo Entertainment Planning & Development",

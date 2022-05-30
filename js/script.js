@@ -1,3 +1,5 @@
+
+//We fill the following object depending of what the user researches.
 var ref = {
         "title":"",
         "url":"",
@@ -7,6 +9,7 @@ var ref = {
         "cat":0
     }
 
+//The following methods are called by the form of search.html to modify the ref object which is then used by showfilter to refine the content of the list.
 function setTitle(title){
     ref.title = title;
     showfilter(data);
@@ -32,6 +35,7 @@ function setCategory(cat){
     showfilter(data);
 }
 
+//We get the content of the localstorage and add the games contained in the list taken from games.js
 let imports = (JSON.parse(localStorage.getItem("saveadd")))
 if(imports==null){
     imports = [];
@@ -40,8 +44,7 @@ for(let game of imports){
     data.push(game);
 }
 
-console.log(JSON.stringify(data));
-
+//We display the data taken from the game.js file and from the local storage. (The ref object is empty and won't be taken into account there)
 showfilter(data);
 
 function showfilter(data){
@@ -74,4 +77,48 @@ function showfilter(data){
     }
 
     document.getElementById("tables").innerHTML = tab;
+}
+
+//The following is used to conditionnaly display the form
+
+var shown = false;
+
+function reveal(){
+    let form = document.getElementsByClassName("headform")[0];
+    console.log(form);
+    if(shown==false){
+        shown = true;
+        form.innerHTML=`
+            <form>
+				<div>
+					<input type="text" id="title" name="game_title" placeholder="Enter the Title" onchange="setTitle(this.value)">
+    			</div>
+				<div>
+					<select name="category" id="game_category" onchange="setCategory(this.value)">
+						<option value=0>--Category--</option>
+						<option value="adventure">Adventure</option>
+						<option value="rpg">RPG</option>
+						<option value="shooter">Shooter</option>
+						<option value="simulator">Simulator</option>
+						<option value="sport">Sport</option>
+						<option value="strategy">Strategy</option>
+						<option value="vsfighter">VsFighter</option>	
+					</select>
+				</div>
+				<div>
+					<input type="text" id="studio" name="game_studio" placeholder="Enter the Studio" onchange="setStudio(this.value)">
+    			</div>
+				<div>
+					<input type="text" id="editor" name="game_editor" placeholder="Enter the Editor" onchange="setEditor(this.value)">
+    			</div>
+				<div>
+					<input type="text" id="release" name="game_release" placeholder="Enter the Year" onchange="setRelease(this.value)">
+    			</div>
+			</form>
+        `;
+    }
+    else{
+        shown = false;
+        form.innerHTML=``;
+    }
 }

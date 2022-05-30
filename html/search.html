@@ -4,6 +4,7 @@
 		<title>Copium - Web Programming Project</title>
 		<meta charset="UTF-8">
 		<link rel= "stylesheet" href="../css/styles.css">
+		<link rel= "stylesheet" href="../css/style_lists.css">
 	</head>
 	<body>
 		<header>
@@ -18,41 +19,21 @@
 				<li><a href="index.html">Home</a></li>
 			</ul>
 		</header>
-		<section>
-			<form>
-				<div>
-					<input type="text" id="title" name="game_title" placeholder="Enter the Title" onchange="setTitle(this.value)">
-    			</div>
-				<div>
-					<select name="category" id="game_category" onchange="setCategory(this.value)">
-						<option value=0>--Category--</option>
-						<option value="adventure">Adventure</option>
-						<option value="rpg">RPG</option>
-						<option value="shooter">Shooter</option>
-						<option value="simulator">Simulator</option>
-						<option value="sport">Sport</option>
-						<option value="strategy">Strategy</option>
-						<option value="vsfighter">VsFighter</option>	
-					</select>
-				</div>
-				<div>
-					<input type="text" id="studio" name="game_studio" placeholder="Enter the Studio" onchange="setStudio(this.value)">
-    			</div>
-				<div>
-					<input type="text" id="editor" name="game_editor" placeholder="Enter the Editor" onchange="setEditor(this.value)">
-    			</div>
-				<div>
-					<input type="text" id="release" name="game_release" placeholder="Enter the Year" onchange="setRelease(this.value)">
-    			</div>
-			</form>
-			<br>
-		</section>
-		<body>
-			<br>
-			<div id="tables"></div>
-			<script type="text/javascript" src="../js/games.js"></script>
-			<script type="text/javascript" src="../js/script.js"></script>
-		</body>
+		<main>
+			<div class="headprompt">
+				<h2>Lookin' for something in particular ?</h2>
+				<button class="revelator" onclick="reveal()">Click Here</button>
+			</div>
+			<div class="headform">
+				
+			</div>
+			<div>
+				<br>
+				<div id="tables"></div>
+				<script src="../js/games.js"></script>
+				<script src="../js/script.js"></script>
+			</div>
+		</main>
 		<footer>
 			<a href="about.html">Contact</a>
 		</footer>

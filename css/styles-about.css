@@ -1,0 +1,23 @@
+.about{
+    text-align: center;
+ }
+ 
+ .about h2{
+    font-size: 12vh; 
+    margin-top: 5vh;
+ }
+ 
+ .about section{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+ }
+ 
+ .bio{
+    display: block;
+    width: 35vw;
+ }
+ 
+ .project{
+    width: 1000px;
+ }

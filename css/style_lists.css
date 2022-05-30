@@ -82,6 +82,16 @@ main{
     width: 100%;
     background-color: rgb(88, 68, 68);
  }
+
+ input{
+    font-size: 3vh;
+    height: 4vh;
+ }
+
+ select{
+    font-size: 3vh;
+    height: 4vh;
+ }
  
  .choice {
     flex-direction: column;
@@ -97,4 +107,11 @@ main{
     margin-left: 0.1vw;
     width: 5vw;
     height: 5vh;
+ }
+
+/*Table from addgame.html*/
+ table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
  }

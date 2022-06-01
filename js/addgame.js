@@ -18,11 +18,18 @@ function decryptform(){
         "release":game.elements.release.value,
         "cat":game.elements.category.value
     })
-    //We had the new game to stored list
-    list.push(gameobject);
-    localStorage.setItem("saveadd",JSON.stringify(list));
-    //We had the new game to displayed list
-    add(gameobject);
+
+    //We check the validity of the submitted game:
+    if(gameobject.title==""||gameobject.url==""||gameobject.studio==""||gameobject.editor==""||gameobject.release==""||gameobject.cat=="Miscelaneous"){
+        alert("The submitted form is invalid, please fill every propt of the form to add a game.");
+    }
+    else{
+        //We add the new game to stored list
+        list.push(gameobject);
+        localStorage.setItem("saveadd",JSON.stringify(list));
+        //We had the new game to displayed list
+        add(gameobject);
+    }
 }
 
 function add(game){

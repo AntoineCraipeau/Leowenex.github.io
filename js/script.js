@@ -73,7 +73,6 @@ function showfilter(data){
                 }
             }
         }
-        document.getElementById("tables").innerHTML = tab;
     }
 
     document.getElementById("tables").innerHTML = tab;

@@ -291,7 +291,7 @@ var data = [
     },
     {
         "title":"Mario Golf: Super Rush",
-        "url":"https://lemagjeuxhightech.com/wp-content/uploads/2021/02/Mario-Golf-Super-Rush-vous-pouvez-le-reserver.jpg",
+        "url":"https://media.senscritique.com/media/000019864776/source_big/mario_golf_super_rush.png",
         "studio":"Camelot Software Planning",
         "editor":"Nintendo",
         "release":"2021",

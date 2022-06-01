@@ -1,6 +1,7 @@
 .firstart{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/library_background.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 72vh;
     align-content: center;
     padding-left: 20px;
@@ -38,7 +39,8 @@
  .navigator{
     color: white;
     background-image: linear-gradient(rgb(37, 46, 39, 0.7), rgb(220,20,61,0.5)),url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/national-video-games-day.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 20px;
  }
  

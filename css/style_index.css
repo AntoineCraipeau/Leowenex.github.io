@@ -1,0 +1,73 @@
+.firstart{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/library_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 72vh;
+    align-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ 
+ .slidetitle {
+    font-size: 50px;
+    color: white; 
+    margin-top: 200px;
+    margin-left: 3vh;
+ }
+ 
+ .slidetext {
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5vw;
+    margin-right: 50vw;
+ }
+ .navigator{
+    color: white;
+    background-image: linear-gradient(rgb(37, 46, 39, 0.7), rgb(220,20,61,0.5)),url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/national-video-games-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+ }
+ 
+ .navigator h2{
+    font-size: 25px;
+    color: white; 
+    margin-left: 3vh;
+ }
+ 
+ .row {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .link {
+    text-decoration: none;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 5%;
+    background-color: black;
+    width: 20vw;
+    height: 8vh;
+    overflow-y: hidden;
+ }
+ 
+ .hidden {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 2vh;
+    color: black;
+ }
+ 
+ 
+ .row a:hover .hidden{
+    color: white;
+ }
+ 
+ .column {
+    color: white;
+    text-decoration: none;
+ }

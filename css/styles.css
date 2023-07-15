@@ -1,0 +1,96 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow-x: hidden;
+}
+
+body{
+   background-color: lightgrey;
+   background-image: linear-gradient(rgb(37, 46, 39, 0.7), rgb(220,20,61,0.5));
+   background-repeat: repeat;
+}
+
+header{
+   position: sticky;
+   text-align: right;
+   top: 0;
+   border-bottom: solid black 1px;
+   background-color:#DC143C;
+}
+
+.activePage{
+   background-color: white;
+   color: black;
+}
+
+header h1{
+   color: white;
+   font-size: 8vh;
+   padding-bottom: 1vh;
+}
+
+header ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+header li{
+   float: right;
+   background-color:#DC143C;
+}
+
+header li a {
+   display: block;
+   color: white;
+   text-align: center;
+   font-size: 3vh;
+   padding: 01.5vh 0.83vw;
+   text-decoration: none;
+}
+
+header a:hover{
+   background-color: white;
+   color: black;
+}
+
+header h1{
+   background-color:black;
+}
+
+.logo {
+   float: left;
+   margin-top: -10.1vh;
+   margin-left: 0.1vh;
+   background-color: black;
+   width: auto;
+   height: 10vh;
+}
+
+
+article{
+   min-height: 40vh;
+   padding: 5vw;
+   font-size: 3vh;
+   text-align: justify;
+   text-justify: auto;
+}
+
+article h1{
+   font-size: 5vh;
+   font-weight: bold;
+   padding-bottom: 1vh;
+}
+
+footer{
+   background-color:#DC143C;
+   text-align: center;
+   height: 5vh;
+   margin-top: 50px;
+}
+
+footer a{
+   color: white;
+}
